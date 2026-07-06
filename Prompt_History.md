@@ -811,7 +811,7 @@ Ba test này bám sát rubric vì chứng minh được:
 Project production đang dùng MySQL trong application.properties:
 - spring.datasource.url=jdbc:mysql://localhost:3306/core_banking?createDatabaseIfNotExist=true
 - username=root
-- password=12345678
+- password=123456
 - ddl-auto=update
 
 Khi chấm bài, máy chấm có thể không có MySQL. Hãy cấu hình test để gradlew test chạy được độc lập.
